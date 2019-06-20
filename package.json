@@ -1,0 +1,28 @@
+{
+  "name": "webapp-template",
+  "version": "1.0.0",
+  "description": "Boiler plate for a web app made with TypeScript and Sass",
+  "main": "index.js",
+  "scripts": {
+    "build": "./bin/build.sh",
+    "clean": "./bin/clean.sh",
+    "dev": "./bin/dev.sh",
+    "start": "./bin/start.sh",
+    "stop-dev": "./bin/stop-dev.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Dudas",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "sass": "^1.21.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
