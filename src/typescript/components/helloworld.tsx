@@ -21,7 +21,7 @@ export class HelloWorld extends React.Component<HelloWorldProps, HelloWorldState
 
   handleNameChange(ev: React.ChangeEvent<HTMLInputElement>) {
     this.setState({
-      name: ev.target.value
+      name: ev.target.value,
     });
   }
 

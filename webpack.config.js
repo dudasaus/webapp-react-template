@@ -16,10 +16,6 @@ module.exports = {
             { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
         ]
     },
-    // externals: {
-    //     "react": "React",
-    //     "react-dom": "ReactDOM",
-    // },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
