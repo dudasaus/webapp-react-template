@@ -1,4 +1,4 @@
-# Web App template
+# React Web App Template
 
 ## Set up
 
